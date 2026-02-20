@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Independent Notes App</title>
+</head>
+<body>
+
+<h1>Notes <img src="/icon.png" width="50" height="50"></h1>
+
+<ul>
+  <% notes.forEach((note) => { %>
+    <li>
+      <h3>
+        ID: <%= note.id %> |
+        Subject: <%= note.title %>
+      </h3>
+
+      <p>Data: <%= note.content %></p>
+
+      <table border="1">
+        <tr><td>Tags: <%= note.tags %></td></tr>
+        <tr><td>Category: <%= note.category %></td></tr>
+      </table>
+
+      <a href="/edit/<%= note.id %>">Edit</a>
+      <a href="/delete/<%= note.id %>">Delete</a>
+    </li>
+    <hr>
+  <% }); %>
+</ul>
+
+<br>
+<a href="/tags">View Tags</a>
+<a href="/categories">View Categories</a>
+
+<h2>Add a Note</h2>
+<form action="/add" method="post">
+  <label>Title:</label>
+  <input type="text" name="title" required>
+  <br>
+  <label>Content:</label>
+  <textarea name="content" required></textarea>
+  <br>
+  <button type="submit">Add Note</button>
+</form>
+
+<hr>
+<h3>Screen Capture</h3>
+<img src="/capture.png" width="600">
+
+</body>
+</html>
