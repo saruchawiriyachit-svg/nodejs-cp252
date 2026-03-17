@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="0" errors="0" time="0.521">
+  <testsuite name="Count user" errors="0" failures="0" skipped="0" timestamp="2026-03-17T04:25:09" time="0.443" tests="10">
+    <testcase classname="Count user default user count" name="Count user default user count" time="0.003">
+    </testcase>
+    <testcase classname="Count user clear user and count" name="Count user clear user and count" time="0">
+    </testcase>
+    <testcase classname="add user add one user" name="add user add one user" time="0">
+    </testcase>
+    <testcase classname="remove user remove one user" name="remove user remove one user" time="0.001">
+    </testcase>
+    <testcase classname="remove user remove user from empty list" name="remove user remove user from empty list" time="0.001">
+    </testcase>
+    <testcase classname="remove two users remove two users normally" name="remove two users remove two users normally" time="0">
+    </testcase>
+    <testcase classname="remove two users remove two users until empty" name="remove two users remove two users until empty" time="0">
+    </testcase>
+    <testcase classname="User class constructor sets name and email" name="User class constructor sets name and email" time="0.001">
+    </testcase>
+    <testcase classname="User class set and get name" name="User class set and get name" time="0.001">
+    </testcase>
+    <testcase classname="User class set and get email" name="User class set and get email" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

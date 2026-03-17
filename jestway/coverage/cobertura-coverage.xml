@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="30" lines-covered="30" line-rate="1" branches-valid="2" branches-covered="2" branch-rate="1" timestamp="1773721510151" complexity="0" version="0.1">
+  <sources>
+    <source>C:\cygwin64\home\DELL\nodejs-cp252\jestway</source>
+  </sources>
+  <packages>
+    <package name="main" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="initdata.js" filename="models\initdata.js" line-rate="1" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+            <line number="2" hits="1" branch="false"/>
+            <line number="10" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="user.js" filename="models\user.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="27" signature="()V">
+              <lines>
+                <line number="2" hits="27"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="1" signature="()V">
+              <lines>
+                <line number="7" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="1" signature="()V">
+              <lines>
+                <line number="11" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="1" signature="()V">
+              <lines>
+                <line number="15" hits="1"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="1" signature="()V">
+              <lines>
+                <line number="19" hits="1"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="27" branch="false"/>
+            <line number="4" hits="27" branch="false"/>
+            <line number="8" hits="1" branch="false"/>
+            <line number="12" hits="1" branch="false"/>
+            <line number="16" hits="1" branch="false"/>
+            <line number="20" hits="1" branch="false"/>
+            <line number="24" hits="1" branch="false"/>
+          </lines>
+        </class>
+        <class name="userData.js" filename="models\userData.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="7" signature="()V">
+              <lines>
+                <line number="5" hits="7"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="21" signature="()V">
+              <lines>
+                <line number="9" hits="21"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="24" signature="()V">
+              <lines>
+                <line number="15" hits="24"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="2" signature="()V">
+              <lines>
+                <line number="20" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="2" signature="()V">
+              <lines>
+                <line number="29" hits="2"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="9" signature="()V">
+              <lines>
+                <line number="38" hits="9"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="3" signature="()V">
+              <lines>
+                <line number="42" hits="3"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="1" branch="false"/>
+            <line number="2" hits="1" branch="false"/>
+            <line number="6" hits="7" branch="false"/>
+            <line number="7" hits="7" branch="false"/>
+            <line number="9" hits="7" branch="false"/>
+            <line number="10" hits="21" branch="false"/>
+            <line number="11" hits="21" branch="false"/>
+            <line number="16" hits="24" branch="false"/>
+            <line number="17" hits="24" branch="false"/>
+            <line number="21" hits="2" branch="true" condition-coverage="100% (2/2)"/>
+            <line number="22" hits="1" branch="false"/>
+            <line number="23" hits="1" branch="false"/>
+            <line number="25" hits="1" branch="false"/>
+            <line number="30" hits="2" branch="false"/>
+            <line number="32" hits="2" branch="false"/>
+            <line number="33" hits="4" branch="false"/>
+            <line number="34" hits="4" branch="false"/>
+            <line number="39" hits="9" branch="false"/>
+            <line number="43" hits="3" branch="false"/>
+            <line number="44" hits="3" branch="false"/>
+            <line number="48" hits="1" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
